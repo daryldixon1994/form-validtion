@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Farro:300,regular,500,700");
+* {
+  font-family: "Farro";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+}
+
+div {
+  /* border: 1px black solid; */
+  width: 35%;
+  /* padding: 20px; */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 1px black solid; */
+}
+input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  color: darkslategray;
+}
+h1 {
+  font-size: 4rem;
+  color: darkslategray;
+}
+button {
+  all: unset;
+  background-color: darkslategray;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.inputError::placeholder {
+  color: white;
+}
